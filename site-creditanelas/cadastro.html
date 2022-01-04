@@ -4,7 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <!--LINK CSS-->
+    <link rel="stylesheet" href="cadastro.css">
+    <!--LINK CSS BOOTSTRAP-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
     <title>Cadastro</title>
 </head>
 <body>
@@ -12,17 +15,70 @@
      <nav></nav>
 
      <!--FORMULÁRIO-->
-     <section>
-         <form action=""></form>
-     </section>
      
-     <!--IMAGEM-->
-     <div>
-         <img src="" alt="">
-     </div>
+    <section class="container">
+        
+      <div class="row content">
+          <div class="col-md-6 mb-3">
+              <img src="image/img.svg" class="img-fluid" alt="">
+          </div>
+          
+          <div class="col-md-6">
+                 
+                   <h4 class="signin-text mb-3">Cadastro</h4>
+              
+                 <form action="">
+                  
+                  <div class="form-group">
+                      <label for="name">Nome</label>
+                       <input type="name" class="form-control">
+                  </div>
+                   
+                  <div class="form-group">
+                       <label for="text">CPF</label>
+                        <input type="text" class="form-control" autocomplete="off" maxlength="#">
+                  </div>
+                  
+                  <div class="form-group">
+                       <label for="text">Whatsapp</label>
+                        <input type="text" class="form-control" maxlength="#">
+                  </div>
+                  
+                  <div class="form-group">
+                      <label for="email">Email</label>
+                       <input type="email" class="form-control">
+                  </div>
+                  
+                  <div class="form-group">
+                      <label for="password">Senha</label>
+                       <input type="password" class="form-control" maxlength="#">
+                        <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem.</span>
+                  </div>
+
+                  <div class="form-group">
+                      <label for="password">Confirmar Senha</label>
+                       <input type="password" class="form-control" maxlength="#">
+                        <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem.</span>
+                  </div>
+
+                  <div class="btn">
+                      <a class="btn btn-primary btn-lg btn-block" href="#" role="button">Empreendedora</a>
+                  </div>
+                  
+                  <div class="btn">
+                      <a class="btn btn-primary btn-lg btn-block" href="#" role="button">Voluntário(a)</a>
+                 </div>
+               
+              </form>
+          </div>
+      </div>
+    </section>
+    
 
      <!--RODAPÉ-->
      <footer></footer>
-
+     
+     <!-- JavaScript Bundle with Popper -->
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
     </body>
 </html>
