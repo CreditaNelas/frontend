@@ -3,6 +3,13 @@
     background-color: beige;
 
 }
+
+.voluntarios{
+    text-align: justify;
+    background-color: beige;
+   
+}
+
 .card{
      background: linear-gradient(to top, red, orange, yellow );
      margin: 20px;
