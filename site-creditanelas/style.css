@@ -1,8 +1,20 @@
+.projeto{
+    text-align: justify;
+    background-color: beige;
+
+}
+.card{
+     background: linear-gradient(to top, red, orange, yellow );
+     margin: 20px;
+}
+
 .rodape{
-    background-color: #A9A9A9;
+    background-color: #D3D3D3;
     padding-left: 25%;
     padding-right: 25%;
     font-size: 25px;
     align-content: center;
 
 }
+
+
