@@ -6,38 +6,39 @@
     font-family: "Poppins";
 }
 
-body {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 0;
-    min-height: 100vh;
+.register-container {
+    height: 100vh;
+    width: 100%;
 }
 
 h1 {
     font-family: 'Cormorant Garamond';
     text-align: center;
-    color: #434343;
 }
-
+    
+h1 {
+    font-family: 'Cormorant Garamond';
+    text-align: center;
+}
+    
 label {
     font-size: 1.2rem;
     font-weight: 500;
     color: #555;
 }
-
+    
 .form-control {
     font-size: 1.1rem;
     font-weight: 600;
     min-height: 48px;
     border-color: #c8a2c8;
 }
-
+    
 .form-control:focus {
     border-color: #723dbe;
     box-shadow: 0 0 0 0.2rem rgba(114, 61, 190,.25);
 }
-
+    
 .btn-custom {
     background: #723dbe;
     border-color: #723dbe;
@@ -47,7 +48,7 @@ label {
     min-height: 52px;
     transition: .5s;
 }
-
+    
 .btn-custom:focus,
 .btn-custom:hover,
 .btn-custom:active,
@@ -57,3 +58,5 @@ label {
     color: #fff;
     letter-spacing: 0.5px;
 }
+
+    
