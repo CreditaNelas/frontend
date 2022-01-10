@@ -4,16 +4,62 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <!-- link bootstrap icone-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+
+    <!-- link bootstrap-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
     
     <title>Home</title>
 </head>
 <body>
-    <!--NAVBAR-->
-    <nav></nav>
+    <header>
+         <!--NAVBAR-->
+    <nav class="navbar navbar-expand-md navbar-light bg-light">
+        <a class="navbar-brand" href="index.html">CreditaNelas</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="colapse navbar-collapse" id="navbarSupportedContent">
+           
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">SOBRE</a>   
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">LOGIN</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown">MENU</a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdwon">
+                        <a class="dropdown-item" href="index.html">HOME</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="cadastro.html">CADASTRO</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="perfil.html">PERFIL</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="projetos.html">CONHEÇA NOSSOS PROJETOS</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="voluntarios.html">VOLUNTÁRIOS</a>
+                    </div>
+                </li>
+            </ul>
+            <br>
+            <div class="icone">
+                <i class="bi bi-person"></i>
+            </div>
+            
+            <form class="d-flex ml-auto">
+                <input class="form-control me-2" type="search" placeholder="PESQUISAR" aria-label="Search">
+                <button class="btn btn-info" type="submit">Pesquisar</button>
+            </form>
+        </div>
+    </nav>
 
     <!--BANNER-->
-    <header></header>
-
+    </header>
+   
     <!--CONTEUDO DA PÁGINA-->
     <main>
          <h2>Conheça os projetos</h2>
@@ -23,7 +69,18 @@
     </main>
 
     <!--RODAPÉ-->
-    <footer></footer>
+    <footer>
+        <div class="rodape">
+            <i class="bi bi-envelope"></i>
+            <i class="bi bi-github"></i>
+            <i class="bi bi-twitter"></i>
+            <i class="bi bi-facebook"></i>
+            <i class="bi bi-instagram"></i>
+        </div>
 
+    </footer>
+    <!-- JS e Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
 </body>
 </html>
