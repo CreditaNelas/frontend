@@ -1,48 +1,59 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
 
-.bg {
-    background: #f6f6f6;
-}
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&display=swap');
 
-img {
-    margin-top: 26%;
-}
-
-.content {
-    margin: 4%;
-    background: darkgray;
-    padding: 2rem 1rem 2rem 1rem;
-    border-radius: 8px;
-}
-
-.signin-text {
+* {
     font-family: "Poppins";
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    min-height: 100vh;
+}
+
+h1 {
+    font-family: 'Cormorant Garamond';
     text-align: center;
-    font-weight: 600;
     color: #434343;
 }
 
 label {
-    font-family: "Poppins";
     font-size: 1.2rem;
     font-weight: 500;
+    color: #555;
 }
 
-input.form-control {
-    font-family: "Poppins";
+.form-control {
     font-size: 1.1rem;
     font-weight: 600;
-    border-color: #808080;
-    color: #434343;
-}
-div.btn {
-   display: flex;
-   font-family: "Poppins";
-   font-size: 1.2rem;
-   font-weight: 600;
-   transition: .5s;
+    min-height: 48px;
+    border-color: #c8a2c8;
 }
 
-div.btn:hover {
+.form-control:focus {
+    border-color: #723dbe;
+    box-shadow: 0 0 0 0.2rem rgba(114, 61, 190,.25);
+}
+
+.btn-custom {
+    background: #723dbe;
+    border-color: #723dbe;
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: 600;
+    min-height: 52px;
+    transition: .5s;
+}
+
+.btn-custom:focus,
+.btn-custom:hover,
+.btn-custom:active,
+.btn-custom:active:focus {
+    background: #54229d;
+    border-color: #54229d;
+    color: #fff;
     letter-spacing: 0.5px;
 }
