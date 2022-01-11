@@ -1,0 +1,43 @@
+h1 {
+    text-align: Center;
+    font-family: poppins;
+}
+
+h5{
+    font-family: poppins;
+}
+
+p{
+    text-align: justify;
+    font-family: poppins;
+}
+
+.sobrecreditanelas{
+    background-color: #f49d80;
+}
+
+.text-credita{
+    text-align: justify;
+    font-family: poppins;
+    margin: 20px 40px 80px 40px;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-bottom: 3%;
+    
+}
+
+.card{
+    width: 18rem; 
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#banner-site{
+    padding: 3%;
+}
