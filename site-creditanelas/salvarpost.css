@@ -4,7 +4,7 @@
     font-family: 'Poppins';
 }
 
-.body {
+.savepost {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -23,13 +23,13 @@ label {
     font-weight: 500;
     min-height: 48px;
     color: rgba(0, 0, 0, 0.7);
-    border-color: rgb(0, 0, 0, 0.4);
+    border-color: rgba(0, 0, 0, 0.4);
     border-radius: 8px;
 }
 
 .form-control:focus {
-    border-color: rgb(255, 182, 122);
-    box-shadow: 0 0 0 0.2rem rgb(255, 182, 93);
+    border-color: rgba(255, 182, 122);
+    box-shadow: 0 0 0 0.2rem rgba(255, 182, 93);
 }
 
 .btn-custom {
@@ -46,9 +46,8 @@ label {
 .btn-custom:hover,
 .btn-custom:active,
 .btn-custom:active:focus {
-background: #e55806;
-border-color: #e55806;
-color: #fff;
-letter-spacing: 0.5px;
+    background: #e55806;
+    border-color: #e55806;
+    color: #fff;
+    letter-spacing: 0.5px;
 }
-    
