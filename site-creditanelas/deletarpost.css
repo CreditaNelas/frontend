@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+* {
+    font-family: 'Poppins';
+}
+
+.deletepost {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    min-height: 100vh;
+}
+
+label {
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #434343;
+}
+
+.form-control {
+    font-size: 1.1rem;
+    font-weight: 500;
+    min-height: 48px;
+    color: rgba(0, 0, 0, 0.7);
+    border-color: rgba(0, 0, 0, 0.4);
+    border-radius: 8px;
+}
+
+.form-control:focus {
+    border-color: rgba(255, 182, 122);
+    box-shadow: 0 0 0 0.2rem rgba(255, 182, 93);
+}
+
+.btn-custom {
+    background: #e07121;
+    border-color: #e07121;
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: 600;
+    min-height: 52px;
+    transition: .5s;
+}
+
+.btn-custom:focus,
+.btn-custom:hover,
+.btn-custom:active,
+.btn-custom:active:focus {
+    background: #e55806;
+    border-color: #e55806;
+    color: #fff;
+    letter-spacing: 0.5px;
+}
